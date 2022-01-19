@@ -71,7 +71,7 @@ namespace WPF_calculator.ViewModels
         {
             Result = CalcText + "=" + new DataTable().Compute(CalcText, null).ToString();
 
-            CalcText = string.Empty;
+            CalcText = "0";
         }
         private bool CanArifCommandExecuted(object p)
         {
